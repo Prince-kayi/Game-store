@@ -1,0 +1,31 @@
+{
+
+    "heros":[
+{
+    "Name":"Kratos",
+    "desc": "God of war",
+    "weapons":"blades of chaos",
+    "weakness":"pussy"
+},
+{
+    "Name":"sub-zero",
+    "desc": "ice-ninja",
+    "weapons":"ice sword",
+    "weakness":"fire"
+},
+{
+    "Name":"Jason",
+    "desc": "killing machine",
+    "weapons":"machete",
+    "weakness":"mask remover"
+},
+{
+    "Name":"scorpion",
+    "desc": "fire ninja",
+    "weapons":"fire spear",
+    "weakness":"ice"
+}
+
+
+    ]
+}
