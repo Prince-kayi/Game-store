@@ -1,0 +1,50 @@
+.depart-drop {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 7px;
+}
+.show-menu {
+    width: 240px;
+    list-style: none;
+    align-items: center;
+    top: 40px;
+    position: absolute;
+    left: 115px;
+}
+.show-menu li {
+    background-color: rgb(1, 1, 22);
+    cursor: pointer;
+}
+.show-menu li:hover {
+    background-color: hotpink;
+}
+.show-menu .active {
+    display: none;
+}
+.service-menu {
+    width: 10rem;
+    position: absolute;
+    list-style: none;
+    align-items: center;
+    text-align: start;
+}
+.service-menu li {
+    background-color: rgb(1, 1, 22);
+    cursor: pointer;
+}
+.service-menu.clicked {
+    display: none;
+}
+.service-drop {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 17px;
+    color: azure;
+    text-decoration: none;
+}
+.service-drop:hover {
+    background-color:darkorchid;
+}

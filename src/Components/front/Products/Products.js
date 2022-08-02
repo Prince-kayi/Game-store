@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Products = ({ProductItems,handleProduct}) => {
   return (
     <div className='products'>
@@ -24,5 +23,4 @@ const Products = ({ProductItems,handleProduct}) => {
     </div>
   )
 }
-
 export default Products

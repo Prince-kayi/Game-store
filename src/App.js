@@ -6,6 +6,7 @@ import Data from './Components/front/Products/Data';
 import { BrowserRouter, Link, Navigate, Route, Routes } from "react-router-dom"
 import Header from './Nav-bar/Header';
 import RouteRs from './Nav-bar/Routes';
+import "./Components/front/Pages/page.css"
 const App = () => {
   const { ProductItems } = Data;
   const [cartItem, setCartItem] = useState([])

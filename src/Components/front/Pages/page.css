@@ -1,0 +1,10 @@
+.ord{
+    background-color: rgb(84, 90, 90);
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    }
