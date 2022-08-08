@@ -4,6 +4,7 @@
     height: 100%;
     text-decoration: none;
     padding: 7px;
+   
 }
 .show-menu {
     width: 240px;
@@ -11,11 +12,13 @@
     align-items: center;
     top: 40px;
     position: absolute;
-    left: 115px;
+    left: 115px; 
+    
 }
 .show-menu li {
     background-color: rgb(1, 1, 22);
     cursor: pointer;
+   
 }
 .show-menu li:hover {
     background-color: hotpink;
@@ -46,5 +49,5 @@
     text-decoration: none;
 }
 .service-drop:hover {
-    background-color:darkorchid;
+    background-color:brown;
 }
