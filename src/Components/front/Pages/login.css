@@ -1,15 +1,15 @@
 .sign-wrap {
     background-color: rgb(84, 90, 90);
-    height: 100%;
-    width: 50%;
-    padding: 0;
-    margin: 0 auto;
+    height: 120%;
+    width: 760px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     margin-top: 40px;
     margin-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .sWrap {
     display: flex;
@@ -76,6 +76,7 @@
     background:orangered;
     border-radius: 1.625rem;
     transition: all 0.4s ease-out;
+    white-space: nowrap;
 }
 .icon {
     position: absolute;
@@ -89,6 +90,7 @@
     width: 1.125rem;
     height: 0.125rem;
     background: none;
+    white-space: nowrap;
     transition: all 0.4s ease-out;
 }
 .arrow::before {
@@ -101,6 +103,7 @@
     border-top: 0.125rem solid whitesmoke;
     border-right: 0.125rem solid whitesmoke;
     transform: rotate(45deg);
+    
 }
 .login p {
     text-transform: capitalize;

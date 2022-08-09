@@ -1,85 +1,84 @@
-.reGister{
-    background-color:whitesmoke;
-    width: 60%;
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    border: 1px solid black;
-    }
-.up{
-text-transform: capitalize;
-    }  
-.si{
-        text-transform: lowercase;
- }
- .title{
-    width: 320px;
-    outline: none;
-    height:40px;
-    border: none;
-    margin-top: -30px;
- }
- .Rwrap{
-  margin-top: -120px;
+.reGister {
+   background-color: whitesmoke;
+   width: 760px;
+   height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-transform: uppercase;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top: 50px;
+   margin-bottom: 20px;
+   border: 1px solid black;
+   white-space: nowrap;
+}
+.up {
+   text-transform: capitalize;
+}
+.si {
+   text-transform: lowercase;
+}
+.title {
+   width: 320px;
+   outline: none;
+   height: 40px;
+   border: none;
+   margin-top: -30px;
+}
+.Rwrap {
+   margin-top: -120px;
    margin-bottom: -90px;
-  
- }
- .RegForm{
+}
+.RegForm {
    margin: 25px;
-   display: flex; 
- 
- }
- .star input{
-    height: 30px;
-    width: 300px;
-    margin: 20px;
-    margin-left: -320px;
-   
- }
-
- .left-in{
-    display: flex;
-    flex-direction: column;
- }
- .left-in input{
-    height: 30px;
-    width: 300px;
-    margin: 20px;
- }
-.sin-up{
+   display: flex;
+}
+.star input {
+   height: 30px;
+   width: 300px;
+   margin: 20px;
+   margin-left: -320px;
+   white-space: nowrap;
+}
+.left-in {
+   display: flex;
+   flex-direction: column;
+}
+.left-in input {
+   height: 30px;
+   width: 300px;
+   margin: 20px;
+}
+.sin-up {
    margin-top: 20px;
-    height: 40px;
-    font-size: 1rem;
-    border: 2px solid crimson;
-    width: 250px;
-    font-family: inherit;
-    font-weight: bold;
-    background: transparent;
-    color:crimson;
-    transition: background 200ms ease-in, color 200ms ease-in;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-left: 180px;
+   height: 40px;
+   font-size: 1rem;
+   border: 2px solid crimson;
+   width: 250px;
+   font-family: inherit;
+   font-weight: bold;
+   background: transparent;
+   color: crimson;
+   transition: background 200ms ease-in, color 200ms ease-in;
+   cursor: pointer;
+   border-radius: 20px;
+   margin-left: 180px;
 }
-.sin-up:hover{
-    color:white;
-    background-color: crimson;
+.sin-up:hover {
+   color: white;
+   background-color: crimson;
 }
-.box{
+.box {
    display: flex;
    justify-content: space-between;
 }
-.info{
+.info {
    margin-bottom: 50px;
 }
-.agree{
-   text-transform:none;
+.agree {
+   text-transform: none;
 }
-.agree a{
+.agree a {
    color: darkblue;
 }

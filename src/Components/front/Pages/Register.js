@@ -26,7 +26,7 @@ const Register = () => {
   }
   const Submits = (e) => {
     e.preventDefault();
-    if (regData.firstName === "" || regData.firstName === "" || regData.email === "" || regData.password == "") {
+    if (regData.firstName === "" || regData.firstName === "" || regData.email === "" || regData.password ==="") {
       setErrors((regData) => ({
         ...regData,
         firstName: "Please Enter First Name ",
@@ -88,10 +88,11 @@ const Register = () => {
           </select>
           <div className='star'>
             <input type="text"
+                name='firstName'
               placeholder='First Name *'
-              name='firstName'
-              onChange={MakeChange}
               value={regData.firstName}
+              onChange={MakeChange}
+            
             />
             {!!errors.firstName && <div className='Messagerror'>{errors.firstName}</div>}
             <div className='star'>
@@ -152,7 +153,8 @@ const Register = () => {
           <span className='agree'>Agree with <a href='/conditions'>Terms & Conditions</a>
             &nbsp; and <a href='policy'>Privacy Policy</a></span>
         </div>
-        <button className="sin-up" onClick={Results}>Sign Up</button>
+        <button className="sin-up" onClick={Results}>Sign Up</button> 
+       
       </div>
     </div>
   )

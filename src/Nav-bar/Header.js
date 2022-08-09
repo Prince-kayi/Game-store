@@ -57,7 +57,7 @@ const Header = ({ cartItem }) => {
                         <input
                             type="text"
                             name='search'
-                            placeholder='Search..'
+                            placeholder='Search for products...'
                             className='search-in'
                         />
                         <Link to="/searchi"><i class="fas fa-search" /></Link>

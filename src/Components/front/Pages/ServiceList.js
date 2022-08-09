@@ -10,7 +10,7 @@ export const ServiceList=[
     id:2,
     title:"Price Beat",
     path:"/priceBeat",
-    cName:"service-drop"
+    cName:"service-drop",
 
   },
   {
