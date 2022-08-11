@@ -43,7 +43,7 @@ const Header = ({ cartItem }) => {
         <header className='nav-head'>
             <div className='nav-logo'>
                 <h1>
-                    <Link to="/" className='logo'> PayAlot</Link>
+                    <Link to="/" className='logo'>SaveAlot</Link>
                 </h1>
                 <div className='depart'
                     onMouseEnter={onMouseEnters}

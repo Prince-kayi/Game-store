@@ -88,7 +88,7 @@ const Register = () => {
           </select>
           <div className='star'>
             <input type="text"
-                name='firstName'
+              name='firstName'
               placeholder='First Name *'
               value={regData.firstName}
               onChange={MakeChange}

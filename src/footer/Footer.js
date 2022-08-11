@@ -83,7 +83,7 @@ const Footer = () => {
         <FaAmazonPay className="pay" />
         <FaCcDiscover className="pay" />
         <FaCcDinersClub className="pay" />
-        <p className="rights">&copy; PayAlot online(pty)  Ltd All rights reserved</p>
+        <p className="rights">&copy; SaveAlot online(pty)  Ltd All rights reserved</p>
       </div>
     </footer>
   )
