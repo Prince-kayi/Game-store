@@ -177,4 +177,9 @@ ul {
         margin-top: 50px;
         justify-content: center;
     }
+    .sLides{
+     height:100px;
+    width: 100px;
+    cursor: pointer;
+    }
 }

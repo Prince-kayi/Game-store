@@ -6,6 +6,7 @@ import Data from './Components/front/Products/Data';
 import { BrowserRouter} from "react-router-dom"
 import Header from './Nav-bar/Header';
 import RouteRs from './Nav-bar/Routes';
+import './Components/front/Pages/services.css'
 
 const App = () => {
   const { ProductItems } = Data;
