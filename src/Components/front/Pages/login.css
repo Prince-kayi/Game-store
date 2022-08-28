@@ -144,4 +144,24 @@
     text-align: center;
     text-transform: none;
 }
+@media screen and (max-width:820px){
+    .sign-wrap{
+        height: 50%;
+        width: 350px;
+        display: flex;
+    }
+    .logForm input{
+        width: 300px;
+        height: 30px;
+        margin-top: 10px; 
+        z-index: 99;
+    }
+    .fogot{
+        position: relative;
+        margin-left: 90px;
+    }
+    .login-btn{
+        width: 10rem;
+    }
+}
 

@@ -93,8 +93,11 @@ width: 5%;
   font-size: 1.5rem;
   float: left;
  }
- .nav-links{
-  display: none;
-  white-space: normal;
+ .nav-head{
+  display: block;
+  width: 102%;
  }
-}
+ .nav-links{
+  margin-left: -55px;
+ }
+ }

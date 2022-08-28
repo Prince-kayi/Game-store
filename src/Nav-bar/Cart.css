@@ -104,8 +104,8 @@
   }
   .cart-add-item,
   .cart-remove-item{
-    width: 30px;
-    margin-left: 15px;
+    width: 25px;
+    margin-left: 22px;
     font-weight: 720;
     border:none;
     border-radius: 3px;
@@ -168,4 +168,18 @@
     padding-right: 30px;
     margin-right: 30px;
   }
-  
+  @media screen and (max-width:820px){
+    .card-item-totals-name{
+      padding-left: 5%;
+    }
+    .card-item{
+      margin: 30px auto;
+      width: 97%;
+    }
+    .card-images{
+      margin-right: 10px;
+    }
+    .card-list{
+      margin-left: -10px;
+    }
+  }

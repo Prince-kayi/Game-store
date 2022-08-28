@@ -92,7 +92,6 @@ const Register = () => {
               placeholder='First Name *'
               value={regData.firstName}
               onChange={MakeChange}
-            
             />
             {!!errors.firstName && <div className='Messagerror'>{errors.firstName}</div>}
             <div className='star'>
@@ -154,7 +153,6 @@ const Register = () => {
             &nbsp; and <a href='policy'>Privacy Policy</a></span>
         </div>
         <button className="sin-up" onClick={Results}>Sign Up</button> 
-       
       </div>
     </div>
   )
