@@ -5,6 +5,7 @@ import Services from '../Components/front/Pages/Services'
 import Department from '../Components/front/Pages/Department'
 
 const Header = ({ cartItem }) => {
+    const[showLinks,setShowLinks]=useState(false)
     const [Sdrop, setDrop] = useState(false)
     const [Ddrop, setdrop] = useState(false)
     const onMouseEnter = () => {
@@ -41,6 +42,7 @@ const Header = ({ cartItem }) => {
     }
     return (
         <header className='nav-head'>
+            <button className='tap' onClick={()=>setShowLinks(!showLinks)}><i class="fas fa-bars" /></button>
             <div className='nav-logo'>
                 <h1>
                     <Link to="/" className='logo'>SaveAlot</Link>
@@ -62,9 +64,10 @@ const Header = ({ cartItem }) => {
                         />
                         <Link to="/searchi"><i class="fas fa-search" /></Link>
                     </div>
+                    
                 </div>
             </div>
-            <div className='nav-links'>
+            <div className='nav-links' id={showLinks ?"hiidden":""}>
             <ul>
                     <li>
                         <Link to="/">Home</Link>
@@ -93,7 +96,6 @@ const Header = ({ cartItem }) => {
                     </li>
                 </ul>
             </div>
-
         </header>
     )
 }

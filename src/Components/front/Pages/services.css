@@ -80,17 +80,17 @@
     .sLides {
         height: 150px;
         width: 450px;
+        margin-top: 10px;
     }
     .lefti {
         position: relative;
         font-size: 1.5rem;
         left: -340px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .righti {
         position: relative;
         font-size: 1.5rem;
         right: 10px;
-        margin-top: 30px;
     }
 }
