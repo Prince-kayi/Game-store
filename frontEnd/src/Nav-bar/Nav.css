@@ -117,6 +117,9 @@ border: none;
  .depart{
   display:none;
 }
+.cartt{
+  color: white;
+}
 .tap{
   display: flex;
   position: relative;

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./login.css"
+import axios from 'axios'
 const Sign = () => {
   const [details, setDetails] = useState({
     email: "",
@@ -53,8 +54,18 @@ const Sign = () => {
       return setSms("You have successfully logged in");
     }
   }
-  const showResults = () => {
-    console.log("details", details)
+  const showResults = async () => {
+     const Logged={
+      email:details.email,
+      password:details.password
+     }
+
+     axios.post("http://localhost:2000/pie/signin",Logged)
+     .then(res=>console.log(res.data))
+     setDetails({
+      email: "",
+      password: ""
+     })
   }
   return (
     <div className='sign-wrap'>

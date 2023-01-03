@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./Register.css"
+import axios from 'axios'
 const Register = () => {
   const [regData, setRegdata] = useState({
     firstName: " ",
@@ -70,6 +71,24 @@ const Register = () => {
   }
   const Results = () => {
     console.log("regData", regData)
+    const Registered={
+    firstName:regData.firstName,
+    lastName:regData.lastName,
+    Cnumber:regData.Cnumber,
+    password:regData.password,
+    email:regData.email,
+    reEnter:regData.reEnter
+    }
+    axios.post("http://localhost:2000/pie/signup",Registered)
+          .then(res=>console.log(res.data))
+          setRegdata({
+            firstName: " ",
+            lastName: " ",
+            Cnumber: " ",
+            password: " ",
+            email: " ",
+            reEnter: " "   
+          })
   }
   return (
     <div className='reGister'>
