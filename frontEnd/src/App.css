@@ -1,148 +1,142 @@
-.app{
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.app {
   height: 100vh;
   width: 100vw;
- 
-  
 }
-.error-msg{
+.error-msg {
   font-size: 15px;
   color: red;
- width: 100%;
+  width: 100%;
 }
-.test{
+.test {
   display: flex;
-  
 }
-.help{
+.help {
   display: flex;
   flex-direction: column;
   margin: 20px;
 }
-.final{
+.final {
   width: 100%;
-background-color: aqua;
-color: white;
-font-weight: 800;
-padding: 25px;
+  background-color: aqua;
+  color: white;
+  font-weight: 800;
+  padding: 25px;
 }
-.wfull{
+.wfull {
   position: relative;
   user-select: none;
 }
-.top{
-  position:relative;
+.top {
+  position: relative;
   justify-content: center;
   display: flex;
   align-items: center;
-
 }
-.pre{
-  position:absolute;
-  top:250px;
-  left:1px;
+.pre {
+  position: absolute;
+  top: 250px;
+  left: 1px;
 }
-.ne{
-  position:absolute;
-  top:250px;
-  right:1px;
+.ne {
+position: absolute;
+  top: 250px;
+  right: 1px;
   padding: 3px;
 }
-.bar{
-  background-color:blue;
+.bar {
+  background-color: blue;
   height: 80px;
- width: 100%;
- display: flex;
-}
-.dle{
+  width: 100%;
   display: flex;
-   justify-content: left;
+}
+.dle {
+  display: flex;
+  justify-content: left;
   align-items: center;
-  max-height: 80px; 
- 
-
+  max-height: 80px;
 }
-.obito{
+.obito {
   flex: 50%;
- justify-content:flex-end;
- align-items: center;
- display: flex;
- padding-right: 20px;
-
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  padding-right: 20px;
 }
-.dle a{
+.dle a {
   color: azure;
   text-decoration: none;
   margin-left: 20px;
   font-size: 30px;
 }
-
-.obito input{
-  height:25px;
+.obito input {
+  height: 25px;
   width: 420px;
   padding-left: 20px;
 }
-
-.yes{
+.yes {
   height: 30px;
   width: 60px;
 }
-
-body{
-  padding:0;
+body {
+  padding: 0;
   margin: 0;
 }
-.yes:hover{
-cursor: pointer;
+.yes:hover {
+  cursor: pointer;
 }
-.open{
+.open {
   margin-top: 25px;
   margin-left: 20px;
   width: 60px;
   height: 30px;
-  
 }
-.open{
+.open {
   display: none;
 }
- #hidden{
+#hidden {
   display: flex;
- 
 }
-@media only screen and (max-width: 1000px) {
-  .dle a{
-    font-size: 20px;
+@media only screen and (max-width: 600px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
-}
-@media only screen and (max-width: 950px) {
-  .dle a{
-    font-size: 13px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .open{
-    display: none;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .dle a{
-    display: none;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .open{
+  .open {
     display: flex;
   }
-    #hidden{
+  #hidden {
     position: absolute;
     left: 0;
     top: 60px;
     height: 230px;
     width: 100%;
-    background-color:red;
+    background-color: red;
     max-height: 230px;
     color: aliceblue;
   }
-  .bar #hidden a{
+  .bar #hidden a {
     margin: 10px;
+  }
+}
+@media screen and (max-width:1200px)and (min-width:480px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
 }

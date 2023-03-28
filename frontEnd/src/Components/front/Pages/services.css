@@ -76,21 +76,38 @@
     right: 50px;
     cursor: pointer;
 }
-@media screen and (max-width:820px) {
+@media screen and (max-width:620px) {
     .sLides {
-        height: 150px;
+        height: 200px;
         width: 450px;
         margin-top: 10px;
     }
     .lefti {
-        position: relative;
-        font-size: 1.5rem;
-        left: -340px;
-        margin-top: 10px;
+        display: none;
     }
     .righti {
-        position: relative;
-        font-size: 1.5rem;
-        right: 10px;
+        display: none;
+    }
+}
+@media screen and (max-width:1200px)and (min-width:480px) {
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .sLides {
+        height: 350px;
+        width: 920px;
+        margin-top: 10px;
+        margin-left: -100px;
+    }
+    .lefti {
+        display: none;
+    }
+    .righti {
+        display: none
     }
 }
